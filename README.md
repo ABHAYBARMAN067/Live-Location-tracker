@@ -31,7 +31,10 @@ A real-time live location tracking web app using **Node.js**, **Socket.IO**, and
 ## 🗂️ Project Structure
 ## 🖼️ Screenshot
 
-![Live Location Tracker Screenshot](public/images/screenshot.png)
+## 🗂️ Project Structure
+
+![Project Structure](file%20structure.png)
+
 
 
 
