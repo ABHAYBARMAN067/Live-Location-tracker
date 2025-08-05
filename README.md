@@ -1,23 +1,32 @@
-Check if the browser supports geolocation.
+# 📍 Real-Time Live Location Tracker
 
-Set options for high accuracy, a 5-second timeout, and no caching.
+A real-time live location tracking web app using **Node.js**, **Socket.IO**, and **Leaflet.js**, inspired by apps like **Ola** and **Uber**.
 
-Use watchPosition to continuously track the user's location.
+---
 
-Emit latitude and longitude via a socket using "send-location".
+## 🚀 Features
 
-Log any errors to the console.
+- ✅ Tracks user location in real-time via browser’s GPS
+- ✅ Displays all active users as moving markers on a Leaflet map
+- ✅ Emits location updates via Socket.IO
+- ✅ Automatically updates map center and marker positions
+- ✅ Removes marker when a user disconnects
+- ✅ Simple and clean UI for live tracking experience
 
-Initialize a Leaflet map centered at coordinates (0, 0) with a zoom level of 15.
+---
 
-Add OpenStreetMap tiles to the map.
+## 🧱 Tech Stack
 
-Create an empty object markers.
+| Layer           | Technology             |
+|----------------|------------------------|
+| Frontend        | HTML, CSS, JavaScript |
+| Mapping         | Leaflet.js + OpenStreetMap |
+| Backend         | Node.js, Express.js   |
+| Real-Time Comm. | Socket.IO             |
+| Templating      | EJS                   |
+| Hosting (optional) | Render.com         |
 
-When receiving location data via socket, extract id, latitude, and longitude, and center the map on the new coordinates.
+---
 
-If a marker for the id exists, update its position; otherwise, create a new marker at the given coordinates and add it to the map.
-
-When a user disconnects, remove their marker from the map and delete it from markers.
-
+## 🗂️ Project Structure
 
