@@ -68,7 +68,7 @@ Open your browser at http://localhost:3000
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/realtime-location-tracker.git
+git clone https://github.com/ABHAYBARMAN067/realtime-location-tracker.git
 cd realtime-location-tracker
 
 # Install dependencies
